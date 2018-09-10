@@ -10,7 +10,7 @@ import java.text.NumberFormat;
 
 public class Main extends AppCompatActivity {
     EditText visor;
-    int operando1, operando2;
+    int operando1, operando2, R=0;
     String operador;
 
     @Override
