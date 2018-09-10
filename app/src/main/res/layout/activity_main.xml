@@ -126,6 +126,15 @@
             android:text="9" />
 
         <Button
+            android:id="@+id/bc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:onClick="operacao"
+            android:text="C" /> <!-- linha 5 -->
+
+        <Button
             android:id="@+id/soma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -138,21 +147,20 @@
             android:id="@+id/b0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_gravity="fill_horizontal"
+            android:layout_column="1"
             android:layout_row="4"
             android:onClick="operacao"
             android:text="0" />
 
         <Button
-            android:id="@+id/b00"
+            android:id="@+id/bm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="2"
             android:layout_row="4"
             android:onClick="operacao"
-            android:text="00" /> <!-- linha 5 -->
+            android:text="M" /> <!-- linha 5 -->
+
         <Button
             android:id="@+id/igual"
             android:layout_width="wrap_content"

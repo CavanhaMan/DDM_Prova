@@ -23,7 +23,6 @@ public class Main extends AppCompatActivity {
     public void operacao(View botao) {
         switch (botao.getId()) {
             case R.id.b0:
-            case R.id.b00:
             case R.id.b1:
             case R.id.b2:
             case R.id.b3:
@@ -34,6 +33,12 @@ public class Main extends AppCompatActivity {
             case R.id.b8:
             case R.id.b9:
                 visor.setText(visor.getText().append(((Button) botao).getText()));
+                break;
+            case R.id.bm:
+                visor.setText(visor.getText());
+                break;
+            case R.id.bc:
+                visor.setText("");
                 break;
             case R.id.divisao:
             case R.id.multiplcação:
