@@ -4,12 +4,10 @@
     <style name="botao">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_margin">2dp</item>
         <item name="android:layout_rowWeight">1</item>
-        <item name="android:background">#858585</item>
         <item name="android:fontFamily">monospace</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textColor">@android:color/background_light</item>
         <item name="android:textSize">30sp</item>
         <item name="android:textStyle">bold</item>
     </style>
